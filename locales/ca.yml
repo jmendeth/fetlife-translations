@@ -1,4 +1,6 @@
 ---
+# TRADUCTORS: En general, fem servir la Guia d'Estil de Softcatalà amb les següents excepcions:
+#  - La màquina es dirigeix a l'usuari en nom de 'tu', no 'vos'.
 ca:
   2fa:
     5strike:
@@ -19,7 +21,7 @@ ca:
     north_america: Amèrica del nord
     one_love: Un amor, una vida, i molt de kink.
     snail_mail: Correu postal
-    sub_header: No confundir amb els Espartans.
+    sub_header: No confondre amb els Espartans.
     title: Nosaltres. Som. FetLife!
   components:
     step: Passa
@@ -37,12 +39,12 @@ ca:
       one: 1 Love
       other: "%{count_with_delimiter} Loves"
     modal:
-      close: tancar
+      close: tanca
       more: més
-      reply: Respondre
+      reply: Respon
     title: Feed d'activitat
   following:
-    follow: Seguir
+    follow: Segueix
     following: Seguint
   footer:
     advertising: Anunciar-se
@@ -53,116 +55,116 @@ ca:
   forgot_password:
     email:
       cta: Envia'm un correu electrònic amb instruccions
-      error_forgot_email: Es requereix una direcció de correu electrònic.
-      error_invalid_email: Allò no sembla una direcció de correu electrònic. Sisplau, revisa-ho i torna a intentar-ho.
-      error_quota: Només podem enviar dos correus per hora a cada direcció de correu electrònic. Sisplau, comprova que el nostre correu no ha arribat a la teva carpeta de spam. Si no pots trobar res a la carpeta de spam, et recomanem utilitzar algun dels altres métodes per recuperar l'accés a la teva compta.
-      placeholder: Direcció de correu electrònic
+      error_forgot_email: Es requereix una adreça de correu electrònic.
+      error_invalid_email: Allò no sembla una adreça de correu electrònic. Sisplau, revisa-ho i torna a intentar-ho.
+      error_quota: Només podem enviar dos correus per hora a cada adreça de correu electrònic. Sisplau, comprova que el nostre correu no ha arribat a la teva carpeta de spam. Si no pots trobar res a la carpeta de spam, et recomanem utilitzar algun dels altres métodes per recuperar l'accés a la teva compta.
+      placeholder: Adreça electrònica
       step1:
-        page_title: Restaurar contrasenya amb email
-        subtitle: Deixa'm ajudar-te amb allò.
+        page_title: Restaura la contrasenya amb email
+        subtitle: Deixa'm ajudar-te amb allò. # estil: allò o això?
         title: Contrasenya oblidada?
       step2:
-        page_title: Vosté "PODRIA" tenir correu
-        subtitle: Si hi ha un perfil associat a <span class='fw7'>%{given_email}</span> s'hauràn enviat instruccions per poder restablir la seva contrasenya.
-        title: Vosté &ldquo;podria&rdquo; tenir correu!
-      update_email: actualitzar direcció de correu electrònic
-      warning: "<strong>Surgeon Generals Warning:</strong> For security reasons, we can't tell you if an email address exists in our database or not. If you don't get an email from us, it's most likely because we don't have an account associated with that email address."
+        page_title: Sembla que "PODRIES" tenir correu
+        subtitle: Si hi ha un perfil associat a <span class='fw7'>%{given_email}</span> s'hauran enviat instruccions per poder restablir la seva contrasenya.
+        title: Sembla que &ldquo;podries&rdquo; tenir correu!
+      update_email: actualitza l'adreça electrònica
+      warning: "<strong>Surgeon Generals Warning:</strong> Per raons de seguretat, no podem dir-te si una adreça electrònica existeix a la nostra base de dades. Si no reps un correu nostre, segurament no tenim cap compte associat amb aquesta adreça." # parcial
     mobile:
       5strike:
-        return: return to front page
-        subtitle: Shoot, for security reasons, you'll have to wait two hours before being able to try again.
-        title: Five Strike Rule
-      cta: Send me Text Message
-      error_country_code: "<strong>Kinky Operator:</strong> Make sure you start your number with your country code: +1 for the US and Canada, +44 for the UK, +61 for Australia, +31 for Netherlands, +49 for Germany, +33 for France, etc."
-      error_quota: "<strong>Kinky Operator:</strong> Shoot, we can only try to send up to 3 text messages every 24 hours to any mobile number. If the number exists in our database or not."
-      pro_tip: "<strong>Pro Tip:</strong> Make sure you start your number with your country code: +1 for the US and Canada, +44 for the UK, +61 for Australia, +31 for Netherlands, +49 for Germany, +33 for France, etc."
+        return: torna a la pàgina principal
+        subtitle: Per raons de seguretat, hauràs d'esperar dues hores abans de tornar-ho a provar.
+        title: Regla dels cinc intents
+      cta: Envia'm un SMS
+      error_country_code: "<strong>Kinky Operator:</strong> Assegura't d'incloure el codi del país al principi: +1 pels EUA i Canadà, +44 per al Regne Unit, +61 per a Austràlia, +31 per a Holanda, +49 per a Alemanya, +33 per a França, etc."
+      error_quota: "<strong>Kinky Operator:</strong> Només podem intentar l'enviament de 3 missatges cada 24 hores per a un mateix número, independentment de si existeix a la nostra base de dades o no."
+      pro_tip: "<strong>Consell:</strong> Assegura't d'incloure el codi del país al principi: +1 pels EUA i Canadà, +44 per al Regne Unit, +61 per a Austràlia, +31 per a Holanda, +49 per a Alemanya, +33 per a França, etc."
       step1:
-        page_title: Reset Password via Text Message
-        subtitle: Let me help you with that.
-        title: Forgot Password?
+        page_title: Restaura la contrasenya via SMS
+        subtitle: Deixa'm que t'ajudi.
+        title: Contrasenya oblidada?
       step2:
-        cta: Verify You are You &#8482;
-        error_code_match: "<strong>Kinky Operator:</strong> Verification code you entered is incorrect. Verify that the number above matches what you received from us and please try again. This is a recording."
-        inexisting_number: If after a couple minutes you don't receive a text message from us, then it's probably because we don't have a profile attached to your number. We recommend you either <a href="%{forgot_password_email_path}">try resetting your password using another method</a> or <a href="%{signup_path}">setup a new profile on FetLife</a>.
-        label: 6-digit Verification Code
-        page_title: Enter Verification Code
-        subtitle: Please enter the 6-digit code we "might" have just sent to you at %{phone_number}.
-        title: Enter Verification Code
-      warning: "<strong>Surgeon Generals Warning:</strong> For security reasons, we can't tell you if a mobile number exists in our database or not. If you don't get a text message from us, it's most likely because we don't have an account associated with that number."
-    next_step: next step
-    return_to_login: return to login
-    tab_email: Email
-    tab_mobile: Mobile
+        cta: Verifica que tu ets tu &#8482;
+        error_code_match: "<strong>Kinky Operator:</strong> El codi de verificació introduït és incorrecte. Verifica que el nombre de dalt coincideix amb el que has rebut de nosaltres i torna-ho a provar. Això és una grabació."
+        inexisting_number: Si després d'uns minuts no reps un SMS nostre, probablement no tenim cap compte associat a aquest número. Et recomanem que provis a <a href="%{forgot_password_email_path}">restaurar la contrasenya fent servir un altre mètode</a> o <a href="%{signup_path}">fer-te un nou perfil a FetLife</a>.
+        label: Codi de 6 dígits de verificació
+        page_title: Introdueix el codi de verificació
+        subtitle: Sisplau, introdueix el codi de 6 dígits que et "podem" haver enviat a %{phone_number}.
+        title: Introdueix el codi de verificació
+      warning: "<strong>Surgeon Generals Warning:</strong> Per raons de seguretat, no podem dir-te si un número existeix a la nostra base de dades. Si no reps un SMS nostre, segurament no tenim cap compte associat amb aquest número."
+    next_step: següent pas
+    return_to_login: torna a l'entrada
+    tab_email: Adreça electrònica
+    tab_mobile: Mòbil
   guidelines:
-    header: FetLife Guidelines & Legalese
+    header: Principis i legalitats de FetLife
     headers:
-      community: Community Guidelines
-      content: Content Guidelines
-      group_leader: Group Leader Guidelines
-    last_updated: 'Last updated:'
+      community: Principis de la Comunitat
+      content: Principis del Contingut
+      group_leader: Group Leader Guidelines # pendent
+    last_updated: 'Última edició:'
     sections:
       guidelines:
-        description: To help make FetLife a fun place for everyone, we kindly ask everyone to follow our Content, Community, and Group guidelines.
-        title: Guidelines
+        description: Per tal d'ajudar a que Fetlife sigui un lloc divertit per tothom, demanem a tothom que segueixi els principis de Contingut, de la Comunitat i dels Grups.
+        title: Principis
       legalese:
-        description: This section contains the Terms of Use all members agree to when they sign up for FetLife. We've tried to keep things as simple and clear as possible!
-        title: Legalese
+        description: Aquesta secció conté les Condicions d'ús que tots els membres aproven quan es creen un perfil de FetLife. Hem intentat mantenir-les el més net i clar possible!
+        title: Legalitats
       privacy:
-        description: How secure is your data and what is FetLife doing to safeguard it? At FetLife, we treat your data how we'd like ours treated.
-        title: Privacy
-    subheader: You'll find our site guidelines, legal documentation, and privacy policy here.
+        description: Com de segures son les teves dades i què fa FetLife per protegir-les? A FetLife tractem les teves dades com ens agradaria que tractessin les nostres.
+        title: Privacitat
+    subheader: Aquí trobaràs els principis d'us del lloc web, documentació legal i la política de privacitat.
     subnav:
-      community: Community
-      content: Content
-      group_leader: Group Leader
-    title: Guidelines
+      community: Comunitat
+      content: Contingut
+      group_leader: Group Leader # pendent
+    title: Principis
   invite_a_friend:
-    cancel_button: cancel
-    cancel_notice: The invitation to %{email} has been canceled.
-    cta: Invite Your Friend to Join FetLife
-    error: We're having problems sending an invite to the above email address. We recommend you verify the spelling or try a different one.
-    error_forgot_email: Email address is required.
-    invitations_accepted: Invitations Accepted
-    invitations_sent: Invitations Sent Out
+    cancel_button: cancel·la
+    cancel_notice: La invitació a %{email} s'ha cancel·lat.
+    cta: Convida el teu amic a FetLife
+    error: Estem tenint problemes enviant una invitació a l'adreça de dalt. Recomanem que comprovis la ortografia o provis una altra.
+    error_forgot_email: És necessària una adreça electrònica.
+    invitations_accepted: Invitacions acceptades
+    invitations_sent: Invitaciones enviades
     labels:
-      email: Email Address
-      friends_email: 'Send invite to:'
-      friends_email_sub: "%{count} invitations remaining"
-    next_step: next step
-    return_to_feed: return to feed
+      email: Adreça electrònica
+      friends_email: 'Envia la invitació a:'
+      friends_email_sub: "et queden %{count} invitacions"
+    next_step: següent pas
+    return_to_feed: torna al feed
     subtitle_step1:
-      one: You have 1 invite left.
-      other: You have %{count_with_delimiter} invites left.
-    subtitle_step2: We've sent an invite from you to %{email}.
-    title_step1: Invite a Friend
-    title_step2: Invitation Sent
-    view_invitations: view your invitations
+      one: Et queda 1 invitació.
+      other: Et queden %{count_with_delimiter} invitacions.
+    subtitle_step2: Hem enviat una invitació de part teva a %{email}.
+    title_step1: Convida un amic
+    title_step2: S'ha enviat la invitació
+    view_invitations: visualitza les invitacions
   landing_page:
-    login_button: Login to FetLife
-    signup_button: Join FetLife
-    stats_details: are sharing <strong class="fw4 silver">%{picture_count} pictures</strong> and <strong class="fw4 silver">%{video_count} videos</strong>, participating in <strong class="fw4 silver">%{discussion_count} discussions</strong> in <strong class="fw4 silver">%{group_count} groups</strong>, going to <strong class="fw4 silver">%{event_count} upcoming events</strong>, and reading <strong class="fw4 silver">%{post_count} blog posts</strong>. <span><span class="i">Kinky heaven!</span>
-    stats_members: Members
-    subtitle: Like Facebook, but run by kinksters like you and me. We think it is more fun that way. Don't you?
-    title: FetLife is the Social Network for the BDSM, Fetish & Kinky Community.
+    login_button: Entra a FetLife
+    signup_button: Uneix-te a FetLife
+    stats_details: are sharing <strong class="fw4 silver">%{picture_count} pictures</strong> and <strong class="fw4 silver">%{video_count} videos</strong>, participating in <strong class="fw4 silver">%{discussion_count} discussions</strong> in <strong class="fw4 silver">%{group_count} groups</strong>, going to <strong class="fw4 silver">%{event_count} upcoming events</strong>, and reading <strong class="fw4 silver">%{post_count} blog posts</strong>. <span><span class="i">Kinky heaven!</span> # pendent
+    stats_members: Membres
+    subtitle: Like Facebook, but run by kinksters like you and me. We think it is more fun that way. Don't you? # pendent
+    title: FetLife is the Social Network for the BDSM, Fetish & Kinky Community. # pendent
   legalese:
     headers:
-      2257_exempt: 2257 Exempt
-      guidelines_for_legal_requests: Legal Requests
-      privacy_policy: Privacy Policy
-      terms_of_use: Terms of Use
+      2257_exempt: 2257 Exempt # pendent
+      guidelines_for_legal_requests: Peticions legals
+      privacy_policy: Política de privacitat
+      terms_of_use: Condicions d'ús
     subnav:
       2257_exempt: 2257 Exempt
-      legal_requests: Legal Requests
-      privacy: Privacy Policy
-      terms: Terms of Use
-    title: Legalese
+      legal_requests: Peticions legals
+      privacy: Política de privacitat
+      terms: Condicions d'ús
+    title: Legalitats
   lockout:
-    subtitle: You've tripped our security system.
-    title: Security, Security, Security!
+    subtitle: Has enganyat el nostre sistema de seguretat.
+    title: Seguretat, seguretat, seguretat! # it's sad to screw up the reference to Balmer
   login:
-    button: Login to FetLife
-    error_flash: Please contact <a href="mailto:support@fetlife.com">support@fetlife.com</a> so we can help you get back in.
-    error_login_blank: Nickname or email can't be blank.
+    button: Entra a FetLife
+    error_flash: Sisplau, contacta'ns a <a href="mailto:support@fetlife.com">support@fetlife.com</a> perquè et poguem ajudar a entrar.
+    error_login_blank: L'àlias o l'adreça electrònica no poden estar en blanc.
     error_not_authenticated: Sorry my friend, you need to be logged in to get to that page. If you are not already a member it takes less than a minute to sign-up.
     error_not_found: Hmmm, we were not able to find you. You sure you entered your nickname and password correctly? (Passwords are CaSe-SeNsItIvE)
     error_password_blacklist: The password you've chosen is easy to guess. Please use a stronger password.
